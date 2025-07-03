@@ -1,0 +1,12 @@
+setting,value
+time_idx,time_idx
+target,target
+group_ids,['entity_id']
+static_categoricals,[]
+static_reals,"['dom_sin', 'dom_cos', 'month_sin', 'month_cos', 'news_intensity_48h', 'news_frequency_daily', 'days_to_fed_meeting', 'days_since_fed_meeting']"
+time_varying_known_categoricals,[]
+time_varying_known_reals,"['hour_sin', 'hour_cos', 'dow_sin', 'dow_cos', 'dom_sin', 'dom_cos', 'month_sin', 'month_cos', 'market_open', 'after_hours', 'days_to_fed_meeting', 'days_since_fed_meeting', 'earnings_season', 'cpi_release', 'gdp_release']"
+time_varying_unknown_categoricals,[]
+time_varying_unknown_reals,"['open', 'high', 'low', 'EMA', 'SMA', 'vwma_10', 'vwma_20', 'pivot_point', 'resistance_1', 'support_1', 'open_lag_1', 'open_lag_3', 'open_lag_5', 'open_lag_10', 'high_lag_1', 'high_lag_3', 'high_lag_5', 'high_lag_10', 'low_lag_1', 'low_lag_3', 'low_lag_5', 'EMA_lag_1', 'EMA_lag_3', 'EMA_lag_5', 'EMA_lag_10', 'SMA_lag_1', 'SMA_lag_3', 'SMA_lag_5', 'vwma_10_lag_1', 'vwma_10_lag_3', 'vwma_10_lag_5', 'vwma_10_lag_10', 'vwma_20_lag_1', 'vwma_20_lag_3', 'vwma_20_lag_5', 'pivot_point_lag_1', 'pivot_point_lag_3', 'pivot_point_lag_5', 'resistance_1_lag_1', 'support_1_lag_1', 'target']"
+max_encoder_length,50
+max_prediction_length,12

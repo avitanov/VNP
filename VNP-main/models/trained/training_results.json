@@ -1,0 +1,297 @@
+{
+  "metrics": {
+    "MAE": 0.0057843527756631374,
+    "MSE": 6.455255061155185e-05,
+    "RMSE": 0.008034460246562958,
+    "MAPE": 0.003850325447274372
+  },
+  "feature_importance": [
+    {
+      "feature": "vwma_10_lag_1",
+      "importance": 0.9821906801202869
+    },
+    {
+      "feature": "EMA",
+      "importance": 0.9716998766563724
+    },
+    {
+      "feature": "target",
+      "importance": 0.9706381144001153
+    },
+    {
+      "feature": "dom_sin",
+      "importance": 0.9478842398752313
+    },
+    {
+      "feature": "dom_cos",
+      "importance": 0.9371206973150606
+    },
+    {
+      "feature": "month_cos",
+      "importance": 0.9082850332258071
+    },
+    {
+      "feature": "news_intensity_48h",
+      "importance": 0.899668840245448
+    },
+    {
+      "feature": "news_frequency_daily",
+      "importance": 0.8951409833056347
+    },
+    {
+      "feature": "encoder_length",
+      "importance": 0.8916413879671637
+    },
+    {
+      "feature": "low",
+      "importance": 0.8724879761234899
+    },
+    {
+      "feature": "open_lag_3",
+      "importance": 0.8628253158349554
+    },
+    {
+      "feature": "vwma_10_lag_3",
+      "importance": 0.846983526956074
+    },
+    {
+      "feature": "EMA_lag_5",
+      "importance": 0.8407489152494743
+    },
+    {
+      "feature": "dom_cos",
+      "importance": 0.8083493246579461
+    },
+    {
+      "feature": "resistance_1",
+      "importance": 0.7998697955603791
+    },
+    {
+      "feature": "pivot_point_lag_1",
+      "importance": 0.7934877358107448
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.7875971009809025
+    },
+    {
+      "feature": "after_hours",
+      "importance": 0.7839587953434274
+    },
+    {
+      "feature": "month_sin",
+      "importance": 0.767453334703966
+    },
+    {
+      "feature": "high_lag_1",
+      "importance": 0.7458310854104313
+    },
+    {
+      "feature": "target_scale",
+      "importance": 0.7228252246565227
+    },
+    {
+      "feature": "earnings_season",
+      "importance": 0.7226430774640877
+    },
+    {
+      "feature": "vwma_20_lag_5",
+      "importance": 0.7145310604805549
+    },
+    {
+      "feature": "low_lag_3",
+      "importance": 0.6997608059460202
+    },
+    {
+      "feature": "days_to_fed_meeting",
+      "importance": 0.6876122995059527
+    },
+    {
+      "feature": "high",
+      "importance": 0.6557318205968801
+    },
+    {
+      "feature": "vwma_10",
+      "importance": 0.6149482628807612
+    },
+    {
+      "feature": "SMA",
+      "importance": 0.6029045712563892
+    },
+    {
+      "feature": "relative_time_idx",
+      "importance": 0.5920204167293608
+    },
+    {
+      "feature": "SMA_lag_1",
+      "importance": 0.5744890462392187
+    },
+    {
+      "feature": "cpi_release",
+      "importance": 0.561478052033995
+    },
+    {
+      "feature": "SMA_lag_3",
+      "importance": 0.5410785368728863
+    },
+    {
+      "feature": "open",
+      "importance": 0.5325843405112682
+    },
+    {
+      "feature": "support_1_lag_1",
+      "importance": 0.5115560592926529
+    },
+    {
+      "feature": "vwma_10_lag_10",
+      "importance": 0.5067039817756125
+    },
+    {
+      "feature": "pivot_point",
+      "importance": 0.4953188866278567
+    },
+    {
+      "feature": "days_since_fed_meeting",
+      "importance": 0.49255018315551435
+    },
+    {
+      "feature": "vwma_20_lag_1",
+      "importance": 0.47956013428435273
+    },
+    {
+      "feature": "pivot_point_lag_3",
+      "importance": 0.47582290739194344
+    },
+    {
+      "feature": "open_lag_5",
+      "importance": 0.4735274735989494
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.45766352117024156
+    },
+    {
+      "feature": "open_lag_10",
+      "importance": 0.45248884409959433
+    },
+    {
+      "feature": "dom_sin",
+      "importance": 0.4505497035973396
+    },
+    {
+      "feature": "vwma_10_lag_5",
+      "importance": 0.42580711268685967
+    },
+    {
+      "feature": "open_lag_1",
+      "importance": 0.42096018346383557
+    },
+    {
+      "feature": "month_sin",
+      "importance": 0.4135958652944993
+    },
+    {
+      "feature": "dow_cos",
+      "importance": 0.39583710162123165
+    },
+    {
+      "feature": "EMA_lag_10",
+      "importance": 0.3952234782785192
+    },
+    {
+      "feature": "gdp_release",
+      "importance": 0.3858430389510049
+    },
+    {
+      "feature": "vwma_20_lag_3",
+      "importance": 0.37732818282065983
+    },
+    {
+      "feature": "month_cos",
+      "importance": 0.3467413141991519
+    },
+    {
+      "feature": "days_since_fed_meeting",
+      "importance": 0.32061467997767246
+    },
+    {
+      "feature": "SMA_lag_5",
+      "importance": 0.3179421004822388
+    },
+    {
+      "feature": "low_lag_1",
+      "importance": 0.2630602126936952
+    },
+    {
+      "feature": "EMA_lag_3",
+      "importance": 0.2611645598680714
+    },
+    {
+      "feature": "high_lag_3",
+      "importance": 0.22583991466163078
+    },
+    {
+      "feature": "vwma_20",
+      "importance": 0.2080374848621679
+    },
+    {
+      "feature": "pivot_point_lag_5",
+      "importance": 0.20321222231478064
+    },
+    {
+      "feature": "dow_sin",
+      "importance": 0.1959977521532561
+    },
+    {
+      "feature": "target_center",
+      "importance": 0.18394265475972127
+    },
+    {
+      "feature": "support_1",
+      "importance": 0.17600153682898367
+    },
+    {
+      "feature": "high_lag_5",
+      "importance": 0.15154869978310403
+    },
+    {
+      "feature": "EMA_lag_1",
+      "importance": 0.1448437299165638
+    },
+    {
+      "feature": "days_to_fed_meeting",
+      "importance": 0.1365582848897221
+    },
+    {
+      "feature": "low_lag_5",
+      "importance": 0.12227584778953948
+    },
+    {
+      "feature": "resistance_1_lag_1",
+      "importance": 0.1204431606459958
+    },
+    {
+      "feature": "high_lag_10",
+      "importance": 0.1048532289756261
+    },
+    {
+      "feature": "market_open",
+      "importance": 0.030542762172761306
+    }
+  ],
+  "model_path": "models/trained/tft_stock_model.pkl",
+  "config": {
+    "max_prediction_length": 12,
+    "max_encoder_length": 50,
+    "batch_size": 32,
+    "learning_rate": 0.005,
+    "hidden_size": 64,
+    "attention_head_size": 4,
+    "dropout": 0.2,
+    "hidden_continuous_size": 32,
+    "max_epochs": 20,
+    "gradient_clip_val": 0.1,
+    "accelerator": "cpu",
+    "devices": 1
+  }
+}
