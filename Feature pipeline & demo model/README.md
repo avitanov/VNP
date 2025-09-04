@@ -57,7 +57,7 @@ python run_tft_training.py
 python production_predictions.py
 
 
-run_tft_training.py :
+run_tft_training.py (demo):
 - Go zima gotoviot dataset od pipelinot so momentalno 63 features.
 - Gi deli podatocite na 80 / 20
 - parametrite na modelot (momentalno e staven na 20 epohi za brzo da se trenira, pak mu treba 30+ min, ama idealno
@@ -65,7 +65,7 @@ run_tft_training.py :
  - modelot treba da se prilagoduva, momentalniot dropout e 0.2, mozno e da e visok, batch sizeot moze da se proba so 16.
  - Parametrite konfigurirani tuka se ovveridunuvat vo tft_trainer.
 
- production_predictions.py:
+ production_predictions.py (demo):
  - Go zima treniraniot TFT model
  - pravi predikcii za slednite 12 steps
  - spored cenite dobieni od tft modelot dava UP/DOWN signali
