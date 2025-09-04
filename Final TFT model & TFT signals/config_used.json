@@ -1,0 +1,18 @@
+{
+  "max_prediction_length": 24,
+  "max_encoder_length": 216,
+  "batch_size": 120,
+  "learning_rate": 0.0003,
+  "hidden_size": 96,
+  "attention_head_size": 8,
+  "dropout": 0.15,
+  "hidden_continuous_size": 22,
+  "max_epochs": 50,
+  "gradient_clip_val": 0.5,
+  "patience": 12,
+  "min_delta": 0.0001,
+  "precision": "32",
+  "accumulate_grad_batches": 1,
+  "optimizer": "adamw",
+  "weight_decay": 0.0001
+}
